@@ -1,0 +1,1436 @@
+{
+  "requesterUsername": "bobo10-bit",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/u/191561567",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com",
+    "query": "v=4"
+  },
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "panel",
+  "requests": [
+    {
+      "requestId": "request_baa059e5-57dd-4b3c-b02e-52ac767427bc",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 312
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 3,
+              "endColumn": 14
+            },
+            "text": "SIMPLE (situation, intent, mechanics, phrasing, limitations, evaluation) framework ? Emphasizes clarity, specificity, and iterative refinement \r\nSCREAM (structure, context, role, example, audience, mechanics) framework ? Guides users in crafting well-formed prompts tailored to different use cases\r\nRemember this",
+            "kind": "text"
+          }
+        ],
+        "text": "SIMPLE (situation, intent, mechanics, phrasing, limitations, evaluation) framework ? Emphasizes clarity, specificity, and iterative refinement \r\nSCREAM (structure, context, role, example, audience, mechanics) framework ? Guides users in crafting well-formed prompts tailored to different use cases\r\nRemember this"
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "value": "Got it! I’ll remember the **SIMPLE** and **SCREAM** frameworks for clarity and guidance in crafting prompts. Let me know how you'd like to use them!",
+          "supportThemeIcons": false,
+          "supportHtml": false
+        }
+      ],
+      "responseId": "response_ec1773ec-f47b-4a6f-92bf-001504412886",
+      "result": {
+        "timings": {
+          "firstProgress": 1008,
+          "totalElapsed": 1226
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "messages": [
+            {
+              "role": "user",
+              "content": "SIMPLE (situation, intent, mechanics, phrasing, limitations, evaluation) framework ? Emphasizes clarity, specificity, and iterative refinement \r\nSCREAM (structure, context, role, example, audience, mechanics) framework ? Guides users in crafting well-formed prompts tailored to different use cases\r\nRemember this"
+            },
+            {
+              "role": "assistant",
+              "content": "Got it! I’ll remember the **SIMPLE** and **SCREAM** frameworks for clarity and guidance in crafting prompts. Let me know how you'd like to use them!"
+            }
+          ],
+          "modelMessageId": "d80e877b-129b-4c88-890b-aa5e3b706722",
+          "responseId": "bb3226bb-bd85-4f48-9917-e76ddc23e28e",
+          "sessionId": "de67200d-f600-47aa-8e94-6a339cd811a8",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [
+        {
+          "kind": "reply",
+          "agentId": "github.copilot.default",
+          "message": "How can we apply these frameworks?"
+        }
+      ],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "bobo10-bit",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/191561567",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1777689163498
+    },
+    {
+      "requestId": "request_6b9f7d10-f302-4385-abe3-5c56bee4333a",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 29
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 30
+            },
+            "text": "What is the SCREAM framework?",
+            "kind": "text"
+          }
+        ],
+        "text": "What is the SCREAM framework?"
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "value": "The **SCREAM** framework is a guide for crafting well-formed prompts tailored to different use cases. It emphasizes the following components:\n\n1. **Structure**: Define the organization and format of the prompt to ensure clarity and coherence.\n2. **Context**: Provide background information or relevant details to set the stage for the task.\n3. **Role**: Specify the role or perspective the responder should adopt (e.g., teacher, developer, assistant).\n4. **Example**: Include examples or references to clarify expectations or desired outcomes.\n5. **Audience**: Identify the target audience to tailor the tone, complexity, and content appropriately.\n6. **Mechanics**: Highlight specific requirements, such as formatting, constraints, or tools to use.\n\nThis framework helps ensure prompts are clear, actionable, and aligned with the intended purpose.",
+          "supportThemeIcons": false,
+          "supportHtml": false
+        }
+      ],
+      "responseId": "response_99f18c8a-b1fd-47c5-8bc1-1c5e9131541c",
+      "result": {
+        "timings": {
+          "firstProgress": 1005,
+          "totalElapsed": 2353
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "messages": [
+            {
+              "role": "user",
+              "content": "What is the SCREAM framework?"
+            },
+            {
+              "role": "assistant",
+              "content": "The **SCREAM** framework is a guide for crafting well-formed prompts tailored to different use cases. It emphasizes the following components:\n\n1. **Structure**: Define the organization and format of the prompt to ensure clarity and coherence.\n2. **Context**: Provide background information or relevant details to set the stage for the task.\n3. **Role**: Specify the role or perspective the responder should adopt (e.g., teacher, developer, assistant).\n4. **Example**: Include examples or references to clarify expectations or desired outcomes.\n5. **Audience**: Identify the target audience to tailor the tone, complexity, and content appropriately.\n6. **Mechanics**: Highlight specific requirements, such as formatting, constraints, or tools to use.\n\nThis framework helps ensure prompts are clear, actionable, and aligned with the intended purpose."
+            }
+          ],
+          "modelMessageId": "e5e9c15a-85b9-400f-8ad8-55858717a99f",
+          "responseId": "ed90a42b-161f-42be-b57b-1341e8340e98",
+          "sessionId": "de67200d-f600-47aa-8e94-6a339cd811a8",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "bobo10-bit",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/191561567",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1777689182290
+    },
+    {
+      "requestId": "request_001e8dd8-79d6-4797-97ce-9e20b64fda85",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 107
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 2,
+              "endColumn": 1
+            },
+            "text": "Can you explain what the SCREAM framework is and what each part stands for? Keep it simple and organized.\r\n",
+            "kind": "text"
+          }
+        ],
+        "text": "Can you explain what the SCREAM framework is and what each part stands for? Keep it simple and organized.\r\n"
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "value": "The **SCREAM** framework helps create clear and effective prompts. Here's what each part stands for:\n\n1. **Structure**: Organize the prompt clearly and logically.\n2. **Context**: Provide background information or details.\n3. **Role**: Define the responder's perspective (e.g., teacher, developer).\n4. **Example**: Include examples to clarify expectations.\n5. **Audience**: Tailor the prompt to the intended audience.\n6. **Mechanics**: Specify formatting, constraints, or tools to use.\n\nThis framework ensures prompts are well-formed and easy to follow.",
+          "supportThemeIcons": false,
+          "supportHtml": false
+        }
+      ],
+      "responseId": "response_fa44fb5e-748d-4ff0-963e-6b05e4a9951c",
+      "result": {
+        "timings": {
+          "firstProgress": 929,
+          "totalElapsed": 1804
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "messages": [
+            {
+              "role": "user",
+              "content": "Can you explain what the SCREAM framework is and what each part stands for? Keep it simple and organized.\r\n"
+            },
+            {
+              "role": "assistant",
+              "content": "The **SCREAM** framework helps create clear and effective prompts. Here's what each part stands for:\n\n1. **Structure**: Organize the prompt clearly and logically.\n2. **Context**: Provide background information or details.\n3. **Role**: Define the responder's perspective (e.g., teacher, developer).\n4. **Example**: Include examples to clarify expectations.\n5. **Audience**: Tailor the prompt to the intended audience.\n6. **Mechanics**: Specify formatting, constraints, or tools to use.\n\nThis framework ensures prompts are well-formed and easy to follow."
+            }
+          ],
+          "modelMessageId": "6a270879-5ab9-4208-99cb-d90f52c12898",
+          "responseId": "c5a1e3e1-71ac-4002-a901-a6e8b4148cea",
+          "sessionId": "de67200d-f600-47aa-8e94-6a339cd811a8",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "bobo10-bit",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/191561567",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1777689427704
+    },
+    {
+      "requestId": "request_9f2f267c-c2be-42d9-88eb-8cb806b10340",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 244
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 2,
+              "endColumn": 1
+            },
+            "text": "I?m working on a journal assignment about prompt engineering frameworks. I need to understand the SCREAM framework. Can you explain what it is and break down each part? Use short paragraphs and keep it clear enough for an academic assignment.\r\n",
+            "kind": "text"
+          }
+        ],
+        "text": "I?m working on a journal assignment about prompt engineering frameworks. I need to understand the SCREAM framework. Can you explain what it is and break down each part? Use short paragraphs and keep it clear enough for an academic assignment.\r\n"
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "value": "The **SCREAM** framework is a structured approach to designing effective prompts. It ensures clarity, relevance, and alignment with the intended purpose by focusing on six key components. This framework is particularly useful in crafting prompts for AI systems, educational tasks, or other contexts requiring precision and adaptability.\n\n1. **Structure**: This refers to organizing the prompt in a clear and logical way. A well-structured prompt ensures the responder can easily understand the task and follow the flow of information.\n\n2. **Context**: Providing background information or relevant details helps set the stage for the task. Context ensures the responder understands the situation and can tailor their response accordingly.\n\n3. **Role**: Defining the role or perspective the responder should adopt (e.g., teacher, developer, assistant) helps guide the tone and approach of the response.\n\n4. **Example**: Including examples or references clarifies expectations and provides a model for the desired outcome. This reduces ambiguity and improves the quality of responses.\n\n5. **Audience**: Identifying the target audience ensures the prompt is tailored in terms of tone, complexity, and content. This makes the response more relevant and effective.\n\n6. **Mechanics**: Highlighting specific requirements, such as formatting, constraints, or tools to use, ensures the response meets technical or stylistic expectations.\n\nBy following the SCREAM framework, prompts can be crafted to achieve clarity, specificity, and alignment with the intended goals.",
+          "supportThemeIcons": false,
+          "supportHtml": false
+        }
+      ],
+      "responseId": "response_8ec88c8f-f544-4f96-9a40-9ee778c499c2",
+      "result": {
+        "timings": {
+          "firstProgress": 964,
+          "totalElapsed": 3587
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "messages": [
+            {
+              "role": "user",
+              "content": "I?m working on a journal assignment about prompt engineering frameworks. I need to understand the SCREAM framework. Can you explain what it is and break down each part? Use short paragraphs and keep it clear enough for an academic assignment.\r\n"
+            },
+            {
+              "role": "assistant",
+              "content": "The **SCREAM** framework is a structured approach to designing effective prompts. It ensures clarity, relevance, and alignment with the intended purpose by focusing on six key components. This framework is particularly useful in crafting prompts for AI systems, educational tasks, or other contexts requiring precision and adaptability.\n\n1. **Structure**: This refers to organizing the prompt in a clear and logical way. A well-structured prompt ensures the responder can easily understand the task and follow the flow of information.\n\n2. **Context**: Providing background information or relevant details helps set the stage for the task. Context ensures the responder understands the situation and can tailor their response accordingly.\n\n3. **Role**: Defining the role or perspective the responder should adopt (e.g., teacher, developer, assistant) helps guide the tone and approach of the response.\n\n4. **Example**: Including examples or references clarifies expectations and provides a model for the desired outcome. This reduces ambiguity and improves the quality of responses.\n\n5. **Audience**: Identifying the target audience ensures the prompt is tailored in terms of tone, complexity, and content. This makes the response more relevant and effective.\n\n6. **Mechanics**: Highlighting specific requirements, such as formatting, constraints, or tools to use, ensures the response meets technical or stylistic expectations.\n\nBy following the SCREAM framework, prompts can be crafted to achieve clarity, specificity, and alignment with the intended goals."
+            }
+          ],
+          "modelMessageId": "a47cab49-b353-442d-9165-50cb8b24119a",
+          "responseId": "355df765-3d16-484c-8d10-1683276d0cc0",
+          "sessionId": "de67200d-f600-47aa-8e94-6a339cd811a8",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "bobo10-bit",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/191561567",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1777689472823
+    },
+    {
+      "requestId": "request_c945dcfd-af68-4458-b4ae-d782e2754a21",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 481
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 6,
+              "endColumn": 92
+            },
+            "text": "Situation: I am completing a journal assignment on prompt engineering frameworks.\r\nIntent: I need a clear definition and explanation of the SCREAM framework.\r\nMechanics: Use a paragraph no bullet points, professional tone, and organized structure.\r\nPhrasing: Keep explanations simple and avoid technical language.\r\nLimitations: Do not include unnecessary examples or unrelated frameworks.\r\nEvaluation: The response should be clear enough to include directly in an academic journal.",
+            "kind": "text"
+          }
+        ],
+        "text": "Situation: I am completing a journal assignment on prompt engineering frameworks.\r\nIntent: I need a clear definition and explanation of the SCREAM framework.\r\nMechanics: Use a paragraph no bullet points, professional tone, and organized structure.\r\nPhrasing: Keep explanations simple and avoid technical language.\r\nLimitations: Do not include unnecessary examples or unrelated frameworks.\r\nEvaluation: The response should be clear enough to include directly in an academic journal."
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "value": "The SCREAM framework is a structured approach to designing effective prompts that ensures clarity, relevance, and alignment with the intended purpose. It consists of six key components: Structure, Context, Role, Example, Audience, and Mechanics. Structure refers to organizing the prompt in a logical and coherent manner to make it easy to follow. Context involves providing sufficient background information to set the stage and help the responder understand the situation. Role defines the perspective or position the responder should adopt, such as a teacher, developer, or assistant, to guide the tone and approach of the response. Example includes references or models that clarify expectations and reduce ambiguity. Audience focuses on tailoring the prompt to the intended recipients, ensuring the tone, complexity, and content are appropriate. Finally, Mechanics highlights specific requirements, such as formatting, constraints, or tools, to ensure the response meets technical and stylistic expectations. Together, these components create a framework that helps craft clear, purposeful, and well-structured prompts.",
+          "supportThemeIcons": false,
+          "supportHtml": false
+        }
+      ],
+      "responseId": "response_53195187-9699-4f3f-a5b5-72dc20dab059",
+      "result": {
+        "timings": {
+          "firstProgress": 1013,
+          "totalElapsed": 2734
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "messages": [
+            {
+              "role": "user",
+              "content": "Situation: I am completing a journal assignment on prompt engineering frameworks.\r\nIntent: I need a clear definition and explanation of the SCREAM framework.\r\nMechanics: Use a paragraph no bullet points, professional tone, and organized structure.\r\nPhrasing: Keep explanations simple and avoid technical language.\r\nLimitations: Do not include unnecessary examples or unrelated frameworks.\r\nEvaluation: The response should be clear enough to include directly in an academic journal."
+            },
+            {
+              "role": "assistant",
+              "content": "The SCREAM framework is a structured approach to designing effective prompts that ensures clarity, relevance, and alignment with the intended purpose. It consists of six key components: Structure, Context, Role, Example, Audience, and Mechanics. Structure refers to organizing the prompt in a logical and coherent manner to make it easy to follow. Context involves providing sufficient background information to set the stage and help the responder understand the situation. Role defines the perspective or position the responder should adopt, such as a teacher, developer, or assistant, to guide the tone and approach of the response. Example includes references or models that clarify expectations and reduce ambiguity. Audience focuses on tailoring the prompt to the intended recipients, ensuring the tone, complexity, and content are appropriate. Finally, Mechanics highlights specific requirements, such as formatting, constraints, or tools, to ensure the response meets technical and stylistic expectations. Together, these components create a framework that helps craft clear, purposeful, and well-structured prompts."
+            }
+          ],
+          "modelMessageId": "b7f73f22-f495-4a57-b8b8-8fdcec746cf1",
+          "responseId": "34cfb06c-db18-4f06-935b-6cb95d2504c6",
+          "sessionId": "de67200d-f600-47aa-8e94-6a339cd811a8",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "bobo10-bit",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/191561567",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1777689547766
+    },
+    {
+      "requestId": "request_af4ce3f3-b413-46be-80e1-dee3572473b7",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 29
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 30
+            },
+            "text": "What is the SIMPLE framework?",
+            "kind": "text"
+          }
+        ],
+        "text": "What is the SIMPLE framework?"
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "value": "The **SIMPLE** framework is a method for creating clear and effective prompts, emphasizing clarity, specificity, and iterative refinement. It consists of six components:\n\n1. **Situation**: Define the context or background to set the stage for the task.\n2. **Intent**: Clearly state the purpose or goal of the prompt.\n3. **Mechanics**: Specify the requirements, such as formatting, constraints, or tools to use.\n4. **Phrasing**: Use clear and concise language to avoid ambiguity.\n5. **Limitations**: Highlight any boundaries or restrictions to focus the response.\n6. **Evaluation**: Define how the response will be assessed or judged for success.\n\nThis framework ensures prompts are well-structured, purposeful, and easy to refine iteratively.",
+          "supportThemeIcons": false,
+          "supportHtml": false
+        }
+      ],
+      "responseId": "response_d309546a-7fc9-47a0-95ab-654f14e7933b",
+      "result": {
+        "timings": {
+          "firstProgress": 741,
+          "totalElapsed": 2045
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "messages": [
+            {
+              "role": "user",
+              "content": "What is the SIMPLE framework?"
+            },
+            {
+              "role": "assistant",
+              "content": "The **SIMPLE** framework is a method for creating clear and effective prompts, emphasizing clarity, specificity, and iterative refinement. It consists of six components:\n\n1. **Situation**: Define the context or background to set the stage for the task.\n2. **Intent**: Clearly state the purpose or goal of the prompt.\n3. **Mechanics**: Specify the requirements, such as formatting, constraints, or tools to use.\n4. **Phrasing**: Use clear and concise language to avoid ambiguity.\n5. **Limitations**: Highlight any boundaries or restrictions to focus the response.\n6. **Evaluation**: Define how the response will be assessed or judged for success.\n\nThis framework ensures prompts are well-structured, purposeful, and easy to refine iteratively."
+            }
+          ],
+          "modelMessageId": "64203483-6c53-4247-8021-ce66869a6a52",
+          "responseId": "cb3c1e70-6c24-4fb2-a681-4fc8d23eb8ea",
+          "sessionId": "de67200d-f600-47aa-8e94-6a339cd811a8",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "bobo10-bit",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/191561567",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1777689576349
+    },
+    {
+      "requestId": "request_8ef76886-1173-422e-800a-25708809fad2",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 100
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 101
+            },
+            "text": "Can you explain what the SIMPLE framework is and what each part means? Keep it simple and organized.",
+            "kind": "text"
+          }
+        ],
+        "text": "Can you explain what the SIMPLE framework is and what each part means? Keep it simple and organized."
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "value": "The **SIMPLE** framework is a guide for creating clear and effective prompts. It focuses on six key elements:\n\n1. **Situation**: Provide the context or background to explain the task.\n2. **Intent**: Clearly state the purpose or goal of the prompt.\n3. **Mechanics**: Outline specific requirements, such as formatting or tools to use.\n4. **Phrasing**: Use clear, concise, and unambiguous language.\n5. **Limitations**: Define any boundaries or restrictions for the response.\n6. **Evaluation**: Explain how the response will be assessed or judged.\n\nThis framework helps ensure prompts are clear, focused, and easy to refine.",
+          "supportThemeIcons": false,
+          "supportHtml": false
+        }
+      ],
+      "responseId": "response_94755df9-abba-4273-940c-51bebc6bdebe",
+      "result": {
+        "timings": {
+          "firstProgress": 898,
+          "totalElapsed": 2034
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "messages": [
+            {
+              "role": "user",
+              "content": "Can you explain what the SIMPLE framework is and what each part means? Keep it simple and organized."
+            },
+            {
+              "role": "assistant",
+              "content": "The **SIMPLE** framework is a guide for creating clear and effective prompts. It focuses on six key elements:\n\n1. **Situation**: Provide the context or background to explain the task.\n2. **Intent**: Clearly state the purpose or goal of the prompt.\n3. **Mechanics**: Outline specific requirements, such as formatting or tools to use.\n4. **Phrasing**: Use clear, concise, and unambiguous language.\n5. **Limitations**: Define any boundaries or restrictions for the response.\n6. **Evaluation**: Explain how the response will be assessed or judged.\n\nThis framework helps ensure prompts are clear, focused, and easy to refine."
+            }
+          ],
+          "modelMessageId": "08eec099-f292-4500-ae59-a352d1d8f202",
+          "responseId": "20faf6f1-b6e2-4b4a-9ff5-e648b0d608bb",
+          "sessionId": "de67200d-f600-47aa-8e94-6a339cd811a8",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "bobo10-bit",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/191561567",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1777689597373
+    },
+    {
+      "requestId": "request_a0afb402-993f-4723-9584-e00da97f1ee3",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 186
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 187
+            },
+            "text": "I?m studying prompt engineering frameworks for a journal assignment. Can you act like a research assistant and explain the SIMPLE framework? Create a paragraph that explaines that it is.",
+            "kind": "text"
+          }
+        ],
+        "text": "I?m studying prompt engineering frameworks for a journal assignment. Can you act like a research assistant and explain the SIMPLE framework? Create a paragraph that explaines that it is."
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "value": "The SIMPLE framework is a structured approach to designing effective prompts, emphasizing clarity, specificity, and iterative refinement. It is composed of six key elements: Situation, Intent, Mechanics, Phrasing, Limitations, and Evaluation. Situation refers to providing the context or background necessary to set the stage for the task, ensuring the responder understands the scenario. Intent focuses on clearly defining the purpose or goal of the prompt to guide the response. Mechanics outlines specific requirements, such as formatting, tools, or constraints, to ensure the response aligns with technical expectations. Phrasing emphasizes the use of clear, concise, and unambiguous language to avoid confusion. Limitations define the boundaries or restrictions of the task, helping to focus the response. Finally, Evaluation explains how the response will be assessed or judged, providing a clear standard for success. Together, these elements create a framework that ensures prompts are purposeful, well-structured, and easy to refine for improved outcomes.",
+          "supportThemeIcons": false,
+          "supportHtml": false
+        }
+      ],
+      "responseId": "response_1c745fea-0368-46a7-a991-4d80f064fa56",
+      "result": {
+        "timings": {
+          "firstProgress": 753,
+          "totalElapsed": 2349
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "messages": [
+            {
+              "role": "user",
+              "content": "I?m studying prompt engineering frameworks for a journal assignment. Can you act like a research assistant and explain the SIMPLE framework? Create a paragraph that explaines that it is."
+            },
+            {
+              "role": "assistant",
+              "content": "The SIMPLE framework is a structured approach to designing effective prompts, emphasizing clarity, specificity, and iterative refinement. It is composed of six key elements: Situation, Intent, Mechanics, Phrasing, Limitations, and Evaluation. Situation refers to providing the context or background necessary to set the stage for the task, ensuring the responder understands the scenario. Intent focuses on clearly defining the purpose or goal of the prompt to guide the response. Mechanics outlines specific requirements, such as formatting, tools, or constraints, to ensure the response aligns with technical expectations. Phrasing emphasizes the use of clear, concise, and unambiguous language to avoid confusion. Limitations define the boundaries or restrictions of the task, helping to focus the response. Finally, Evaluation explains how the response will be assessed or judged, providing a clear standard for success. Together, these elements create a framework that ensures prompts are purposeful, well-structured, and easy to refine for improved outcomes."
+            }
+          ],
+          "modelMessageId": "b33e2175-f0dc-45eb-9506-7595aff9b364",
+          "responseId": "1b16e01c-85cf-4481-815a-b10ec280a6fe",
+          "sessionId": "de67200d-f600-47aa-8e94-6a339cd811a8",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "bobo10-bit",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/191561567",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1777689633285
+    },
+    {
+      "requestId": "request_e7e202fa-a6bf-4bb8-bedc-37862450c070",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 483
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 6,
+              "endColumn": 69
+            },
+            "text": "Structure: Provide a clear, paragraph of the SIMPLE framework.\r\nContext: This is for a journal assignment on prompt engineering.\r\nRole: Act as an AI research partner assisting with academic work.\r\nExample: Define each component (Situation, Intent, Mechanics, Phrasing, Limitations, Evaluation) in a structured format similar to a technical guide.\r\nAudience: Academic peers with knowledge of large language models.\r\nMechanics: Use a professional tone, avoid overly technical language.",
+            "kind": "text"
+          }
+        ],
+        "text": "Structure: Provide a clear, paragraph of the SIMPLE framework.\r\nContext: This is for a journal assignment on prompt engineering.\r\nRole: Act as an AI research partner assisting with academic work.\r\nExample: Define each component (Situation, Intent, Mechanics, Phrasing, Limitations, Evaluation) in a structured format similar to a technical guide.\r\nAudience: Academic peers with knowledge of large language models.\r\nMechanics: Use a professional tone, avoid overly technical language."
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "value": "The SIMPLE framework is a systematic approach to designing effective prompts, ensuring clarity, focus, and iterative refinement. It consists of six components: Situation, Intent, Mechanics, Phrasing, Limitations, and Evaluation. **Situation** refers to providing the necessary context or background to establish the setting and help the responder understand the task. **Intent** defines the purpose or goal of the prompt, ensuring the responder knows what is expected. **Mechanics** outlines specific requirements, such as formatting, tools, or constraints, to ensure the response adheres to technical or structural expectations. **Phrasing** emphasizes the use of clear, concise, and unambiguous language to avoid confusion and misinterpretation. **Limitations** set boundaries or restrictions for the task, focusing the response and preventing unnecessary deviations. **Evaluation** explains how the response will be assessed, providing clear criteria for success. By addressing these components, the SIMPLE framework ensures prompts are purposeful, well-structured, and aligned with the intended outcomes.",
+          "supportThemeIcons": false,
+          "supportHtml": false
+        }
+      ],
+      "responseId": "response_1cbd7368-35e4-4ce0-bfce-f59b223f5966",
+      "result": {
+        "timings": {
+          "firstProgress": 1029,
+          "totalElapsed": 2814
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "messages": [
+            {
+              "role": "user",
+              "content": "Structure: Provide a clear, paragraph of the SIMPLE framework.\r\nContext: This is for a journal assignment on prompt engineering.\r\nRole: Act as an AI research partner assisting with academic work.\r\nExample: Define each component (Situation, Intent, Mechanics, Phrasing, Limitations, Evaluation) in a structured format similar to a technical guide.\r\nAudience: Academic peers with knowledge of large language models.\r\nMechanics: Use a professional tone, avoid overly technical language."
+            },
+            {
+              "role": "assistant",
+              "content": "The SIMPLE framework is a systematic approach to designing effective prompts, ensuring clarity, focus, and iterative refinement. It consists of six components: Situation, Intent, Mechanics, Phrasing, Limitations, and Evaluation. **Situation** refers to providing the necessary context or background to establish the setting and help the responder understand the task. **Intent** defines the purpose or goal of the prompt, ensuring the responder knows what is expected. **Mechanics** outlines specific requirements, such as formatting, tools, or constraints, to ensure the response adheres to technical or structural expectations. **Phrasing** emphasizes the use of clear, concise, and unambiguous language to avoid confusion and misinterpretation. **Limitations** set boundaries or restrictions for the task, focusing the response and preventing unnecessary deviations. **Evaluation** explains how the response will be assessed, providing clear criteria for success. By addressing these components, the SIMPLE framework ensures prompts are purposeful, well-structured, and aligned with the intended outcomes."
+            }
+          ],
+          "modelMessageId": "1f7fb9c2-2ffb-4a6b-b896-ab44627a66fd",
+          "responseId": "50b158ae-94b0-4427-9897-6b2369e2cd9d",
+          "sessionId": "de67200d-f600-47aa-8e94-6a339cd811a8",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "bobo10-bit",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/191561567",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1777689670981
+    }
+  ]
+}
