@@ -1,0 +1,3 @@
+This class is about the ethical problemms with AI models. It teaches you how to prompt AI to get more effective outputs out of the AI models. It also teaches you how AI models learn from data and the
+bias and errors the data gives the AI. It teaches how there are ethical problems with AI and how important it is to reduce the amount of bias and to always check the AI output for copyright or licensing issues
+to avoid legal problems. It also teaches how it is useful as a coding assisstant and how it can speed up programming and find bugs but that it can make mistakes that can include bugs or errors in the code. 
